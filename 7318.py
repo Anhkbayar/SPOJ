@@ -1,0 +1,6 @@
+n = input()
+num_list = list(map(int, n))
+num_list.insert(0,1)
+num_list.append(1)
+final = ''.join(str(digit) for digit in num_list)
+print(pow(int(final), 2))
